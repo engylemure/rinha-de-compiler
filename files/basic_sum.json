@@ -1,0 +1,68 @@
+{
+    "name": "files/basic_sum.rinha",
+    "expression": {
+        "kind": "Let",
+        "name": {
+            "text": "sum",
+            "location": {
+                "start": 4,
+                "end": 7,
+                "filename": "files/basic_sum.rinha"
+            }
+        },
+        "value": {
+            "kind": "Binary",
+            "op": "Add",
+            "lhs": {
+                "kind": "Int",
+                "value": 1,
+                "location": {
+                    "start": 11,
+                    "end": 12,
+                    "filename": "files/basic_sum.rinha"
+                } 
+            },
+            "rhs": {
+                "kind": "Int",
+                "value": 1,
+                "location": {
+                    "start": 15,
+                    "end": 16,
+                    "filename": "files/basic_sum.rinha"
+                }
+            },
+            "location": {
+                "start": 11,
+                "end": 16,
+                "filename": "files/basic_sum.rinha"
+            }
+        },
+        "next": {
+            "kind": "Print",
+            "value": {
+                "kind": "Var",
+                "text": "sum",
+                "location": {
+                    "start": 27,
+                    "end": 30,
+                    "filename": "files/basic_sum.rinha"
+                }
+            },
+            "location": {
+                "start": 19,
+                "end": 31,
+                "filename": "files/basic_sum.rinha"
+            }
+        },
+        "location": {
+            "start": 0,
+            "end": 16,
+            "filename": "files/basic_sum.rinha"
+        }
+    },
+    "location": {
+        "start": 0,
+        "end": 31,
+        "filename": "files/basic_sum.rinha"
+    }
+}

@@ -1,0 +1,15 @@
+[package]
+name = "tsurc"
+version = "0.1.0"
+edition = "2021"
+publish = false
+authors = ["Jordao Rosario <jordao.rosario01@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = [".", "tsurc_parser", "tsurc_vm"]
+
+[dependencies]
+tsurc_vm = { path = "tsurc_vm" }
+clap = { version = "4.4.2", features = ["derive"] }
